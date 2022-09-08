@@ -3,15 +3,15 @@
 /**
  * main-Entry point
  *
- * Return: always 0
+ * Return: always O
  */
 
 int main(void)
 
 {
 
-	puts("\"Programing is like building a multilingual puzzle")
+	puts("\"Programming is like building a multilingual puzzle");
 
-		return (0);
+		return (O);
 
 }
