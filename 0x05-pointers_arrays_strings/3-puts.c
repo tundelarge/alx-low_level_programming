@@ -1,5 +1,3 @@
-able File  17 lines (16 sloc)  221 Bytes
-
 #include "main.h"
 #include "2-strlen.c"
 /**
