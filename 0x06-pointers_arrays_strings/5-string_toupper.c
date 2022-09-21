@@ -1,18 +1,16 @@
+#include "main.h"
 /**
- * reverse_array - reverses an array
- *
- * @a: array to reverse
- * @n: size of array
+ * string_toupper - uppers a lower
+ * @s: character to make upper
+ * Return: return value of upper
  */
-void reverse_array(int *a, int n)
+char *string_toupper(char *s)
 {
 	int i;
-	int t;
 
-	for (i = 0; i < n / 2; i++)
-	{
-		t = a[i];
-		a[i] = a[n - i - 1];
-		a[n - i - 1] = t;
-	}
+	for (i = 0; s[i] != '\0'; i++)
+		if (s[i] >= 'a' && s[i] <= 'z')
+			s[i] = s[i] - 32;
+
+	return (s);
 }
