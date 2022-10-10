@@ -6,7 +6,7 @@
 /**
  * main - program compilation starts from main
  * Description: testing all macros used if all is in order
- * author: sammykingx
+ * author: tundelarge
  * Return: 0 (success) 1 (fail)
  */
 int main(void)
