@@ -1,1 +1,0 @@
-gcc -fPIC -shared -o libdynamic.so [source files]
