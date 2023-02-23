@@ -1,1 +1,5 @@
-qwertyu
+# 0-Makefile
+
+# Rule all: builds the holberton executable file
+all:
+	gcc main.c holberton.c -o holberton
